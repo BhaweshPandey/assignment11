@@ -1,0 +1,69 @@
+.title{
+    text-align: center;
+}
+.date-container{
+    display: flex;
+    justify-content: space-around;
+}
+.divDate{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+label{
+    font-size: 18x;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+.divData{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+input{
+    width:120px;
+    height:20px;
+    font-size:large;
+}
+select{
+    width:auto;
+    height:25px;
+    font-size:large;
+}
+.fabricCont{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.units{
+    border: 1px solid #b2beb5;
+    padding :5px;
+    height:25px;
+    border-radius:12px;
+}
+.radios{
+    display:flex;
+    align-items: center;
+    width:150px;
+}
+.c_q{
+    margin:5px;
+    width:85px;
+}
+.chinaFabric{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.submit{
+    background-color: #b2beb5;
+    border-radius:12px;
+    height:35px;
+    cursor:pointer
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
